@@ -326,6 +326,11 @@ a:hover.footer__column-link {
   list-style: none;
 }
 
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+}
+
 .footer__social-icon {
   margin-right: 10px;
   height: 16px;
