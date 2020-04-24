@@ -54,6 +54,10 @@
   text-decoration: none;
 }
 
+a:hover {
+  color: #e9820d;
+}
+
 .header__main-illustration {
   position: absolute;
   z-index: 1;
