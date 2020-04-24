@@ -58,6 +58,10 @@ a:hover {
   color: #e9820d;
 }
 
+a:hover.footer__column-links {
+  color: #0a8505;
+}
+
 .header__main-illustration {
   position: absolute;
   z-index: 1;
