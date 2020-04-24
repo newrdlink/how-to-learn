@@ -58,7 +58,7 @@ a:hover {
   color: #e9820d;
 }
 
-a:hover.footer__column-links {
+a:hover.footer__column-link {
   color: #0a8505;
 }
 
@@ -123,7 +123,7 @@ a:hover.footer__column-links {
   margin-bottom: 30px;
 }
 
-.two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bolder;
@@ -277,14 +277,14 @@ a:hover.footer__column-links {
 
 .footer__column_content_copyright {
   display: flex;
-  height: 250px;
+  min-height: 250px;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .footer__column_content_info {
-  height: 250px;
+  min-height: 250px;
   position: relative;
   flex-direction: column;
   justify-content: start;
@@ -294,7 +294,7 @@ a:hover.footer__column-links {
 }
 
 .footer__column_content_social {
-  position: absolute;
+  position: relative;
   right: 0;
   color: white;
 }
@@ -315,7 +315,7 @@ a:hover.footer__column-links {
   margin: 0 auto 20px;
 }
 
-.footer__column-links {
+.footer__column-link {
   margin: 0;
   padding: 0;
   line-height: 30px;
