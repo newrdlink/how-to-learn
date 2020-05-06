@@ -1,6 +1,4 @@
 .footer__column_content_info {
-  min-height: 250px;
-  position: relative;
   flex-direction: column;
   justify-content: start;
   padding: 0;
